@@ -619,18 +619,18 @@
         g_mode = "1";
         if (g_windows_height > g_windows_width) {
             if (g_gold) {
-                g_rows = 9;
-                g_cols = 6;
+                g_rows = 3;
+                g_cols = 3;
             } else {
                 g_rows = 3;
-                g_cols = 2;
+                g_cols = 3;
             }
         } else {
             if (g_gold) {
-                g_rows = 6;
-                g_cols = 9;
+                g_rows = 3;
+                g_cols = 3;
             } else {
-                g_rows = 2;
+                g_rows = 3;
                 g_cols = 3;
             }
         }
@@ -641,19 +641,19 @@
         g_mode = "2";
         if (g_windows_height > g_windows_width) {
             if (g_gold) {
-                g_rows = 12;
-                g_cols = 8;
+                g_rows = 4;
+                g_cols = 3;
             } else {
-                g_rows = 6;
-                g_cols = 4;
+                g_rows = 4;
+                g_cols = 3;
             }
         } else {
             if (g_gold) {
-                g_rows = 8;
-                g_cols = 12;
+                g_rows = 3;
+                g_cols = 4;
             } else {
-                g_rows = 4;
-                g_cols = 6;
+                g_rows = 3;
+                g_cols = 4;
             }
         }
         loadPuzzle();
@@ -663,19 +663,19 @@
         g_mode = "3";
         if (g_windows_height > g_windows_width) {
             if (g_gold) {
-                g_rows = 18;
-                g_cols = 12;
+                g_rows = 7;
+                g_cols = 6;
             } else {
-                g_rows = 8;
+                g_rows = 6;
                 g_cols = 5;
             }
         } else {
             if (g_gold) {
-                g_rows = 12;
-                g_cols = 18;
-            } else {
                 g_rows = 5;
-                g_cols = 8;
+                g_cols = 6;
+            } else {
+                g_rows = 4;
+                g_cols = 5;
             }
         }
         loadPuzzle();
